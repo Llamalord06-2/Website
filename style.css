@@ -1,7 +1,56 @@
-body{
-    background-color: #2D2E40;
-    color:#F5B7EF
+body {
+    background-color: #2d2e40;
+    color: #f5b7ef;
+    font-family: fantasy, sans-serif;
+    align-content: center;
 }
-.Predator{
-    background-color: #8C8961
+.Predator {
+    background-color: #31591e;
+    color: #f23838;
+}
+
+.Venom {
+    text-align-last: center;
+    background-color: white;
+    color: #f2f2f2;
+    background-image: url(Images/wall2.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.Xeno {
+    background-color: #2c3840;
+    color: #95afbf;
+}
+
+.bodyPage {
+    color: black;
+    background-color: white;
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.Home {
+    text-align-last: center;
+    background-color: white;
+    color: #f2f2f2;
+    background-image: url(Images/Collage.png);
+    background-size: cover;
+    /*background-position: center;*/
+    background-repeat: no-repeat;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+.bodyPageH {
+    color: black;
+    background-color: blue;
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
 }

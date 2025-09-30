@@ -1,126 +1,154 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
     <head>
         <meta charset="UTF-8" />
         <title>Aliens</title>
-        <link rel = "stylesheet" href="style.css">
+        <link rel="stylesheet" href="style.css" />
     </head>
-    <body>
-        <h1>Alien Species!</h1>
-        <p>A website showing the strongest alien species from media.</p>
-        <p>This site will discuss the top <B>4</B> strongest species of aliens from various forms of media</p>
-        <a href="https://www.google.com">Click to go to google</a>
-        <br>
-        <a href="xenomorphs.html">Click to go to Xenomorph Page</a>
-        <br>
-        <a href="kraang.html">Click to go to Kraang Page</a>
-        <br>
-        <a href="yaujta.html">Click to go to Yaujta Page</a>
-        <br>
-        <a href="symbiotes.html">Click to go to Symbiote Page</a>
-        <br>
-        <br>
-        <form>
-            <label for = "username">Any possible aliens I have missed?</label>
+    <body class="Home">
+        <div class="bodyPageH">
+            <div class = "BannerHome">
+            <h1>Alien Species!</h1>
+            <p>A website showing the strongest alien species from media.</p>
+            <p>This site will discuss the top <b>4</b> strongest species of aliens from various forms of media</p>
+            <p>Click on an image to go to the corresponding page.</p></div>
             <br>
-            <input type ="text" id = "alien">
-            
-            <br>
-            <br>
-            <label for="strengthR">What is their Strength Rating?:</label>          
-            <select name="Strength" id="StrengthR">
-                <option value="1">1</option>
-                <option value="2">2</option>
-                <option value="3">3</option>
-                <option value="4">4</option>
-                <option value="5">5</option>
-                <option value="6">6</option>
-                <option value="7">7</option>
-                <option value="8">8</option>
-                <option value="9">9</option>
-                <option value="10">10</option>
-            </select>
-            
-            <br>
-            <br>
-            <label for="techR">What is their Tech Rating?:</label>          
-            <select name="tech" id="techR">
-                <option value="1">1</option>
-                <option value="2">2</option>
-                <option value="3">3</option>
-                <option value="4">4</option>
-                <option value="5">5</option>
-                <option value="6">6</option>
-                <option value="7">7</option>
-                <option value="8">8</option>
-                <option value="9">9</option>
-                <option value="10">10</option>
-            </select>
+            <table class="links">
+                <tr>
+                    <th>
+                        <a href="xenomorphs.html"
+                            ><img
+                                src="Images/xeno1.webp.crdownload"
+                                width="250"
+                                height="250"
+                                alt="Link to the Xeno page"
+                        /></a>
+                    </th>
 
-            <br>
-            <br>
-            <label for="defeseR">What is their Defence Rating?:</label>          
-            <select name="defense" id="defenceR">
-                <option value="1">1</option>
-                <option value="2">2</option>
-                <option value="3">3</option>
-                <option value="4">4</option>
-                <option value="5">5</option>
-                <option value="6">6</option>
-                <option value="7">7</option>
-                <option value="8">8</option>
-                <option value="9">9</option>
-                <option value="10">10</option>
-            </select>
+                    <th>
+                        <a href="kraang.html"
+                            ><img src="Images/Krang1.png" width="250" height="250" alt="Link to the Kraang page"
+                        /></a>
+                    </th>
+                </tr>
+                <tr>
+                    <th>
+                        <a href="yaujta.html"
+                            ><img src="Images/pred1.jpg" width="250" height="250" alt="Link to the Yaujta page"
+                        /></a>
+                    </th>
+                    <th>
+                        <a href="symbiotes.html"
+                            ><img src="Images/SymPage.jpg" width="250" height="250" alt="Link to the Symbiote page"
+                        /></a>
+                    </th>
+                </tr>
+            </table>
+            <br />
+            <br />
+            <form>
+                <label for="username">Any possible aliens I have missed?</label>
+                <br />
+                <input type="text" id="alien" />
 
-            <br>
-            <br>
-            <label for="adaptR">What is their Adaptability Rating?:</label>          
-            <select name="adapt" id="adaptR">
-                <option value="1">1</option>
-                <option value="2">2</option>
-                <option value="3">3</option>
-                <option value="4">4</option>
-                <option value="5">5</option>
-                <option value="6">6</option>
-                <option value="7">7</option>
-                <option value="8">8</option>
-                <option value="9">9</option>
-                <option value="10">10</option>
-            </select>
+                <br />
+                <br />
+                <label for="strengthR">What is their Strength Rating?:</label>
+                <select name="Strength" id="StrengthR">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                </select>
 
-            <br>
-            <br>
-            <label for="threatSR">What is their Solo Threat Rating?:</label>          
-            <select name="threatS" id="threatSR">
-                <option value="1">1</option>
-                <option value="2">2</option>
-                <option value="3">3</option>
-                <option value="4">4</option>
-                <option value="5">5</option>
-                <option value="6">6</option>
-                <option value="7">7</option>
-                <option value="8">8</option>
-                <option value="9">9</option>
-                <option value="10">10</option>
-            </select>
+                <br />
+                <br />
+                <label for="techR">What is their Tech Rating?:</label>
+                <select name="tech" id="techR">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                </select>
 
-            <br>
-            <br>
-            <label for="threatGR">What is their Group Threat Rating?:</label>          
-            <select name="threatG" id="threatGR">
-                <option value="1">1</option>
-                <option value="2">2</option>
-                <option value="3">3</option>
-                <option value="4">4</option>
-                <option value="5">5</option>
-                <option value="6">6</option>
-                <option value="7">7</option>
-                <option value="8">8</option>
-                <option value="9">9</option>
-                <option value="10">10</option>
-            </select>
-            <input type ="submit" value = "send">
-        </form>
+                <br />
+                <br />
+                <label for="defeseR">What is their Defence Rating?:</label>
+                <select name="defense" id="defenceR">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                </select>
+
+                <br />
+                <br />
+                <label for="adaptR">What is their Adaptability Rating?:</label>
+                <select name="adapt" id="adaptR">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                </select>
+
+                <br />
+                <br />
+                <label for="threatSR">What is their Solo Threat Rating?:</label>
+                <select name="threatS" id="threatSR">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                </select>
+
+                <br />
+                <br />
+                <label for="threatGR">What is their Group Threat Rating?:</label>
+                <select name="threatG" id="threatGR">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                </select>
+                <br />
+                <input type="submit" value="Submit Form" />
+            </form>
+        </div>
     </body>
 </html>
