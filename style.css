@@ -1,8 +1,11 @@
 body {
     background-color: #2d2e40;
     color: #f5b7ef;
-    font-family: fantasy, sans-serif;
+    font-family: Arial, Helvetica, sans-serifsans-serif;
     align-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10%;
 }
 .Predator {
     background-color: #31591e;
@@ -18,9 +21,34 @@ body {
     background-position: center;
 }
 
-.Xeno {
-    background-color: #2c3840;
-    color: #95afbf;
+.Xeno{
+    text-align-last: center;
+    background-color: purple;
+    color: #f2f2f2;
+    background-image: url(Images/xenoWall.jpg);
+    background-position: center;
+}
+.bodyPageX {
+    color: white;
+    background-color: black;
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.Pred{
+    text-align-last: center;
+    background-color: purple;
+    color: #f2f2f2;
+    background-image: url(Images/backgroundP.jpg);
+    background-position: center;
+}
+.bodyPageP {
+    color: white;
+    background-color: black;
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .bodyPage {
@@ -37,7 +65,6 @@ body {
     color: #f2f2f2;
     background-image: url(Images/Collage.png);
     background-size: cover;
-    /*background-position: center;*/
     background-repeat: no-repeat;
 }
 
@@ -48,8 +75,34 @@ body {
 }
 
 .bodyPageH {
-    color: black;
-    background-color: blue;
+    color: #ffffff;
+    background-color: #a7a7b4;
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.links{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.BannerHome{color: darkturquoise;
+        background-image: url(Images/Untitled-5.png);
+}
+
+
+.Kraang {
+    text-align-last: center;
+    background-color: purple;
+    color: #f2f2f2;
+    background-image: url(Images/logo.jpg);
+    background-position: center;
+}
+
+.bodyPageK {
+    color: purple;
+    background-color: darkgrey;
     max-width: 700px;
     margin-left: auto;
     margin-right: auto;
